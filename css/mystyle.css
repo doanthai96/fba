@@ -1,0 +1,132 @@
+.webpage__bg>img,.webpage__banner>img{
+	width: 100%;
+	height:auto;
+}
+.webpage__bg{
+	margin-top: -20px;
+}
+.btn-feature{
+	border: solid 1px;
+	color: #ffffff;
+	border-radius: 5px;
+	background-color: #102643;
+}
+.cta{
+	margin-top: -100px;
+}
+.webpage__banner h2{
+	padding-top:30px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #f3d612;
+}
+.webpage{
+	margin-top:-720px;
+	background-color: #102643;
+	font-family: Myriad Pro;
+	font-style: Bold Condensed;
+
+	-webkit-animation-delay:10s;
+}
+.video{
+	-webkit-animation-delay:9s;
+	height: 720px;
+}
+/*.webpage__timeline{
+	background-color: #f8f8f8;
+}*/
+.video>video{
+	height: 100%;
+	width: auto;
+}
+.webpage__recommend__header{
+	margin-top: 50px;
+	text-align: center;
+	font-family: Myriad Pro;
+	font-style: Bold Condensed
+}
+.webpage__recommend__header>h2{
+	padding-top: 5px;
+	color: #f3d612;
+	/*display: inline-block;*/
+}
+.webpage__recommend__header>img{
+	/*display: inline-block;*/
+	height:70px;
+	width:auto;
+}
+.yellow{
+	display: inline;
+	color: #f3d612;
+	font-size: 20px;
+	text-align: justify;
+}
+.icon{
+	height: 148px;
+	width: auto;
+}
+.icon>img{
+	height: 100%;
+	width: auto;
+}
+.content{
+	padding-top: 20px;
+	display: inline;
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+.webpage__recommend{
+	font-family: Myriad Pro;
+	font-style: Bold Condensed;
+}
+.noidung{
+	margin-top: 20px;
+	text-align: justify;
+}
+.webpage__recommend>.row{
+	margin-top: 30px;
+}
+.webpage__define__header #define{
+	padding-top: -5px;
+	height: 60px;
+	width: auto;
+}
+.webpage__define__header>.container>.yellow,.webpage__define__header>.container>.content{
+	font-size: 30px;
+}
+.webpage__define .container img{
+	width: 100%;
+	height: auto;
+}
+.webpage__define>.container{
+	margin-top: 20px;
+	text-align: center;
+}
+.webpage__timeline>section>.events-content>h2{
+	color: #f3d612;
+}
+.contact h2{
+	font-weight: bold;
+	font-size: 50px;
+	color: #f3d612;
+	text-transform: uppercase;
+	text-align: center;
+}
+.contact p{
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	margin-top: 20px;
+}
+.gallery h2{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f3d612
+}
+.center{
+	text-align: center;
+}
