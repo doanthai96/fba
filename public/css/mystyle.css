@@ -93,9 +93,14 @@
 	height: 60px;
 	width: auto;
 }
-.webpage__define__header>.container>.yellow,.webpage__define__header>.container>.content{
-	font-size: 30px;
+.content{
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size: 26px;
 }
+.yellow{
+	font-size: 26px;
+	}
 .webpage__define .container img{
 	width: 100%;
 	height: auto;
