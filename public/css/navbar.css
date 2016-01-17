@@ -1,0 +1,115 @@
+.body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1D90F5;
+  min-height: 100vh;
+  margin: 0;
+  font-family: roboto;
+  transition: min-height 1s ease;
+}
+
+.body1--before:before {
+  content: '';
+  background: #E8FAFF;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.menu {
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  background: white;
+  height: 87.75px;
+  width: 87.75px;
+  padding: 36px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+  transition: 1s cubic-bezier(0.9, -0.35, 0.08, 1.4);
+}
+.menu.expanded {
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+}
+.menu.expanded.fixed {
+  position: fixed;
+  top:0;
+  left: 0;
+}
+span {
+  padding: 9px;
+  white-space: nowrap;
+  visibility: visible;
+  opacity: 1;
+  transition: 1s;
+  transform: rotateY(0deg);
+}
+span.hidden {
+  width: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: rotateY(90deg);
+}
+span a {
+  color: black;
+  text-decoration: none;
+  font-size: 16.36364px;
+  transition: .3s;
+}
+span a:hover {
+  color: #1D90F5;
+  text-decoration: none;
+}
+
+.container1 {
+  position: absolute;
+  top: 22.5px;
+  right: calc(100% - 73.125px);
+  height: 42.75px;
+  width: 58.5px;
+  transition: 1s;
+}
+.container1.close {
+  right: 0;
+}
+
+.toggle {
+  position: relative;
+  height: 42.75px;
+  width: 58.5px;
+  cursor: pointer;
+  
+}
+.toggle:after, .toggle:before {
+  content: '';
+  background: #1D90F5;
+  width: 36px;
+  height: 4.5px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: 1.3s cubic-bezier(0.66, -0.44, 0.35, 1.41);
+}
+.toggle:before {
+  top: -30%;
+}
+.toggle:after {
+  top: 30%;
+}
+.toggle.close:before {
+  transform: rotate(-225deg);
+  top: 0;
+}
+.toggle.close:after {
+  transform: rotate(225deg);
+  top: 0;
+}
