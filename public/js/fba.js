@@ -52,6 +52,7 @@ $(document).ready(function(){
             items:1,
             loop:true,
             center:true,
+            autoplay:true,
             URLhashListener:true,
             autoplayHoverPause:true,
             startPosition: 'URLHash'
